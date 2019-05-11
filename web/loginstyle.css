@@ -1,0 +1,77 @@
+  body{
+        background: url(roads.jpg) no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+        background-size: cover;
+      }
+
+      .container{
+         height: 100%;
+         align-content: center;
+        }
+
+      .box
+      {
+        color: #ffffff;
+        padding:30px 50px ;
+        height: 370px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 400px;
+        background-color: rgba(0,0,0,0.5) !important;
+      }
+
+      .box-header h3{
+         color: white;
+        }
+
+        input:focus{
+          outline: 0 0 0 0  !important;
+          box-shadow: 0 0 0 0 !important;
+
+        }
+
+        .sel
+        {
+          width: 100%;
+          max-width: 600px !important;
+        }
+
+      input[type="text"],[type="password"],[type="submit"],.sel{
+        opacity:0;
+        animation-name:ani1;
+        animation-duration:2s;
+        animation-delay: 1.5s;
+        animation-fill-mode:forwards;
+      }
+
+
+        .login_btn{
+           color: black;
+           background-color: #FFC312;
+           width: 100px;
+         }
+
+        .login_btn:hover{
+           color: black;
+           background-color: white;
+        }
+
+        .links{
+          color: white;
+         }
+
+        .links a{
+          margin-left: 4px;
+         }
+
+         @keyframes ani1{
+           0%{
+               opacity:0;
+           }
+
+           100%{
+             opacity:1;
+           }
+         }

@@ -1,0 +1,70 @@
+
+.content{
+  background-color:#dccfec;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  font-size:20px;
+  font-family: sans-serif;
+}
+.sidebar {
+  background-color: #91999d;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+.row
+{
+
+  height: 100vh;
+
+
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+input[type="text"],[type="email"],[type="tel"],[type="password"],.sel{
+  background-color: #fff ;
+  outline:none;
+  border-radius:20px;
+  color:black;
+font-size:16px;
+}
+
+
+ .sel1
+        {
+          text-align: center;
+          width: 100%;
+          max-width: 600px !important;
+        }
+
+tr,th{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.sidebar a.active {
+  background-color: #555;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+.sidebar {
+  height: auto;
+  padding: 15px;
+}
+.row.content {height:auto;}
+}
